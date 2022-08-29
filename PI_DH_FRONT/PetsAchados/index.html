@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Ache meu Pet</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="Imagens/icon.jpeg">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navegador">
+        <div class="barra-navegacao">
+            <img src="./Imagens/icon.png">
+            <a id="achadosEPerdidos" href="#">Achados e Perdidos</a>
+            <a id="comoFunciona" href="#">Como Funciona</a>
+            <a id="suporte" href="#">Suporte</a>
+        </div>
+
+        <div class="barra-pesquisa-nav">
+            <div>
+                <form class="barra-pesquisa">
+                    <input class="form-control" type="search" placeholder="Pesquisa Pet" aria-label="Search">
+                    <button class="btn" type="submit">Procurar</button>
+                </form>
+            </div>
+    </nav>
+
+    <header class="header">
+        <h1 class="Titulo">Obrigada por me encontrar! </h1>
+        <h3 class="Subtitulo">Graças a sua ajuda, minhas chances de encontrar meu lar estão bem mais altas!</h2>
+    </header>
+
+    <main class="Main">
+        <div>
+            <img class="Foto" src="Imagens/anuncio.png">
+            <p class="previa">Prévia do anúncio</p>
+        </div>
+
+        <section class="Formulario">
+            <p class="codigo">Veja se eu possuo um tag de identificação, insira o código aqui e contate meu dono
+                imediatamente, obrigado!</p>
+            <form action="">
+                <input class="codigoPet" type="text" name="codigoPet" placeholder="Insira o Código" autocomplete="off">
+                <input class="botaoCodigo" type="button" name="botaoCodigo" value="Enviar Código">
+            </form>
+
+            <h2 class="semCodigo" id="sc1">Sem tag?</h2>
+            <h3 class="semCodigo" id="sc2">Não há problema, faça um anúncio rapído por aqui e me ajude a encontrar meu
+                dono</h3>
+
+            <form action="">
+                <select class="TipoPet" name="Tipo">
+                    <option selected disabled>Tipo de Pet</option>
+                    <option value="Cachorro">Cachorro</option>
+                    <option value="Gato">Gato</option>
+                    <option value="Coelhsno">Coelho</option>
+                    <option value="Furão">Furão</option>
+                    <option value="Passáro">Passáro</option>
+                    <option value="Cobra">Cobra</option>
+                    <option value="Porco">Porco</option>
+                </select>
+                <input class="Telefone" type="tel" name="Telefone" placeholder="Telefone para contato" autocomplete="off">
+                <input class="Endereco" type="Name" name="Endereco" placeholder="Local em que o pet foi encontrado" autocomplete="off">
+                <input class="seuNome" type="text" name="Raca" placeholder="Seu Nome" autocomplete="off">
+                <div>
+                    <label for="Imagem">Escolher Imagem do Pet</label>
+                    <input class="Imagem" accept="image/*" type="file" name="Imagem" id="Imagem" multiple="multiple>
+                </div>
+                <input class= "Email" type="email" name="Email" placeholder="Digite seu e-mail" autocomplete="off">
+                <input class="Informacoes" type="text" name="Informacoes" placeholder="Informações Adicionais"autocomplete="off">
+            </form>
+
+            <button class="botoesPrincipais Enviar" type="button">Enviar Busca</button>
+            <button class="botoesPrincipais Cadastro" type="button">Já possuo cadastro</button>
+        </section>
+    </main>
+    <section class="Dicas">
+        <h1 class="tituloDicas">DICAS IMPORTANTES</h1>
+        <div class="containerDicas">
+            <img class="imagemDica" id="imagem1" src="Imagens/1.png">
+            <img class="imagemDica" id="imagem2" src="Imagens/2.png">
+            <img class="imagemDica" id="imagem3" src="Imagens/3.png">
+        </div>
+    </section>
+</body>
+
+</html>

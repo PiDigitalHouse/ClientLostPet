@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Bem Vindo, Usuário</title>
+</head>
+
+<body>
+    <main class="caixa pagina-principal">
+        <header class="caixa centralizar-conteudo cabecalho">
+            <div class="barra-navegacao">
+                <img src="./img/icon.png">
+                <a class="navbar-brand" href="#">Achados e Perdidos</a>
+                <a class="navbar-brand" href="#">Como Funciona</a>
+                <a class="navbar-brand" href="#">Suporte</a>
+            </div>
+            <form class="form-inline my-2 my-lg-0 barra-pesquisa">
+                <input class="form-control" type="search" placeholder="Pesquisa Pet" aria-label="Search">
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Procurar</button>
+            </form>
+            <div class="usuario-barra">
+                <img src="./img/imagem-usuario.png">
+                <div>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <div class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Nome Usuário
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+        </header>
+        <div class="caixa centralizar-conteudo pesquisa">
+            <h1>Pet Perdido?</h1>
+            <a href="#" class="botao">Achei um Pet!</a>
+        </div>
+        <aside class="caixa centralizar-conteudo barra-lateral">
+            <div class="usuario">
+                <img src="./img/imagem-usuario.png">
+                <h1>Nome Usuário</h1>
+                <h2>@nomeusuario</h2>
+            </div>
+            <ul>
+                <li>
+                    <h1 class="selecionado">Minha Conta</h1>
+                    <ul>
+                        <li><a class="navbar-brand" href="#">Meu Perfil</a></li>
+                        <li><a class="navbar-brand" href="#">Alertas Emitidos</a></li>
+                        <li><a class="navbar-brand" href="#">Segurança da Conta</a></li>
+                    </ul>
+                </li>
+                <li><a class="navbar-brand" href="#">Minhas Mensagens</a></li>
+                <li><a class="navbar-brand" href="#">Sair</a></li>
+                <li><a class="navbar-brand" href="#">Precisa de Ajuda?</a></li>
+            </ul>
+        </aside>
+        <content class="caixa centralizar-conteudo conteudo-principal">
+            <div class="usuario">
+                <h1>Oi, Usuário</h1>
+                <a class="navbar-brand" href="#">Minhas Mensagens</a>
+            </div>
+            <div>
+                <div class="meu-perfil">
+                    <div>
+                        <div class="meu-perfil-titulo">
+                            <h1>Meu Perfil</h1>
+                            <h2>Gerenciar e proteger sua conta</h2>
+                        </div>
+                        <table>
+                            <tr>
+                                <td >Nome do Usuário</td>
+                                <td >nomeusuario</td>
+                            </tr>
+                            <tr>
+                                <td >CPF</td>
+                                <td >0*********8</td>
+                            </tr>
+                            <tr>
+                                <td >Nome</td>
+                                <td ><input type="name" id="name" placeholder="Nome Usuário" name="nome">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >E-mail</td>
+                                <td ><input type="email" id="email" placeholder="nome.usuario@mail.com"
+                                        name="email">
+                                    <a class="navbar-brand azul" href="#">Trocar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="left">Telefone</td>
+                                <td class="left">
+                                    <input type="phone" id="telefone" placeholder="*********66" name="Telefone">
+                                    <a class="navbar-brand azul" href="#">Trocar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <form>
+                                        <label for="diaa">Data de Nascimento:</label>
+                                    </form>
+                                </td>
+                                <td>
+                                    <input type="date" id="diaa" name="diaa">
+                                </td>
+                            </tr>
+                        </table>
+                        <a href="#" class="botao">Salvar</a>
+                    </div>
+                    <div class="usuario-foto">
+                        <img src="./img/imagem-usuario.png">
+                        <a>Trocar foto de Perfil</a>
+                    </div>
+                </div>
+            </div>
+        </content>
+        <footer class="caixa centralizar-conteudo rodape">
+            <div class="texto-rodape">
+                <h3>2022 © Lost Pet</h3>
+                <h3>contato@lostpet.com.br</h3>
+            </div>
+            <div class="texto-rodape">
+                <h3><a class="navbar-brand" href="#">Privacidade</a></h3>
+                <h3><a class="navbar-brand" href="#">Termos de uso</a></h3>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

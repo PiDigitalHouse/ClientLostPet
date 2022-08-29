@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Ache meu Pet</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="Imagens/icon.jpeg">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navegador">
+        <div class="barra-navegacao">
+            <img src="./Imagens/icon.png">
+            <a id="achadosEPerdidos" href="/PaginaPesquisa/index.html">Achados e Perdidos</a>
+            <a id="comoFunciona" href="#">Como Funciona</a>
+            <a id="suporte" href="#">Suporte</a>
+        </div>
+
+        <div class="barra-pesquisa-nav">
+            <div>
+                <form class="barra-pesquisa">
+                    <input class="form-control" type="search" placeholder="Pesquisa Pet" aria-label="Search">
+                    <button class="btn" type="submit">Procurar</button>
+                </form>
+            </div>   
+    </nav>
+
+    <header class="header">
+        <h1 class="Titulo">ACHE MEU PET</h1>
+        <h2 class="Subtitulo">Você recuperará seu amiguinho bem rápido! Coloque todas as informações solicitadas e não
+            economize nos detalhes!</h2>
+    </header>
+
+    <main class="Main">
+        <div>
+            <img class="Foto" src="Imagens/anuncio.png">
+            <p>Prévia do anúncio</p>
+        </div>
+
+        <section class="Formulario">
+            <form action="">
+                <input class="NomePet" type="Name" name="NomePet" placeholder="Nome do Pet" autocomplete="off">
+                <input class="NomeTutor" type="Name" name="NomeTutor" placeholder="Nome do Tutor" autocomplete="off">
+                <select class="TipoPet" name="Tipo">
+                    <option selected disabled>Tipo de Pet</option>
+                    <option value="Cachorro">Cachorro</option>
+                    <option value="Gato">Gato</option>
+                    <option value="Coelhsno">Coelho</option>
+                    <option value="Furão">Furão</option>
+                    <option value="Passáro">Passáro</option>
+                    <option value="Cobra">Cobra</option>
+                    <option value="Porco">Porco</option>
+                </select>
+                <input class="Raca" type="text" name="Raca" placeholder="Qual a raça? (Opcional)" autocomplete="off">
+                <input class="Email" type="email" name="Email" placeholder="Digite seu e-mail" autocomplete="off">
+                <input class="Telefone" type="tel" name="Telefone" placeholder="Telefone para contato"
+                    autocomplete="off">
+                <div>
+                    <label for="Imagem">Escolher Imagem do Pet</label>
+                    <input class="Imagem" accept="image/*" type="file" name="Imagem" id="Imagem">
+                </div>
+                <input class="Endereco" type="Name" name="Endereco" placeholder="Endereço em que foi visto por último"
+                    autocomplete="off">
+                <input class="Informacoes" type="text" name="Informacoes" placeholder="Informações Adicionais"
+                    autocomplete="off">
+            </form>
+
+            <a href="/PaginaPesquisa/index.html"><button class="botoesPrincipais Enviar" type="button">Enviar Busca</button></a>
+            <a href="/LoginFront/index.html"><button class="botoesPrincipais Cadastro" type="button">Já possuo cadastro</button></a>
+        </section>
+    </main>
+    <section class="Dicas">
+        <h1 class="tituloDicas">DICAS IMPORTANTES</h1>
+        <div class="containerDicas">
+            <img class="imagemDica" id="imagem1" src="Imagens/1.png">
+            <img class="imagemDica" id="imagem2" src="Imagens/2.png">
+            <img class="imagemDica" id="imagem3" src="Imagens/3.png">
+        </div>
+    </section>
+</body>
+
+</html>
